@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/dj/工作/repos/ruoyi && git remote -v 2>/dev/null; echo \"---\"; git status 2>/dev/null | head -5; echo \"---\"; git log --oneline -3 2>/dev/null)",
+      "Bash(cd /Users/dj/工作/repos/ruoyi && git init && git add -A && git commit -m \"$\\(cat <<'EOF'\nInitial commit: RuoYi framework\nEOF\n\\)\")"
+    ]
+  }
+}
